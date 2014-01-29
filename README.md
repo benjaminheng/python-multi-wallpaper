@@ -4,6 +4,11 @@ This script runs in the background. It places an icon in your systray from which
 
 In its current state the script is quite hacky. Config options aren't elegantly laid out. Maybe I'll update it in the future, but it currently works well enough for my purposes.
 
+# Preresquisites #
+
+1. [PIL](http://www.pythonware.com/products/pil/)
+2. [pywin32](http://sourceforge.net/projects/pywin32/)
+
 # Configuration #
 
 In the `__init__` function of the `Wallpaper` class, edit the following variables:
