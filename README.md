@@ -8,14 +8,14 @@ In its current state the script is quite hacky. Config options aren't elegantly 
 
 In the `__init__` function of the `Wallpaper` class, edit the following variables:
 
-* monitors = <number of monitors you have>
+* monitors = \<number of monitors you have\>
 * resolution = [[mon1width, mon1height], [mon2width, mon2height], etc.]
 
 All the way at the bottom are some more user-definable variables:
 
-* interval = <seconds between wallpaper changes>
-* wallPath = <absolute path to a dir where your wallpapers are stored>
-* staticWallpaper = <absolute path to a wallpaper>\*\*
+* interval = \<seconds between wallpaper changes\>
+* wallPath = \<absolute path to a dir where your wallpapers are stored\>
+* staticWallpaper = \<absolute path to a wallpaper\>\*\*
 
 \*\* I know having staticWallpaper is kind of pointless. Just call `Wallpaper.set_wallpaper` to set the wallpapers for both monitors before calling `Wallpaper.apply_wallpaper`. This is the first thing I'll change if I decide to update the script.
 
