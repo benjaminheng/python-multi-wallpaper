@@ -4,10 +4,17 @@ This script runs in the background. It places an icon in your systray from which
 
 In its current state the script is quite hacky. Config options aren't elegantly laid out. Maybe I'll update it in the future, but it currently works well enough for my purposes.
 
-# Preresquisites #
+# Prerequisites #
 
-1. [PIL](http://www.pythonware.com/products/pil/)
-2. [pywin32](http://sourceforge.net/projects/pywin32/)
+1. [PyWin32](http://sourceforge.net/projects/pywin32/)
+2. [Pillow](https://pypi.python.org/pypi/Pillow/)
+
+# Setup #
+
+1. Install PyWin32.
+2. Install Pillow. Pillow can be installed using pip with `pip install pillow`.
+3. Set your desktop background's picture position to 'Tile'.
+    - Right click desktop > Personalize > Desktop Background > Picture Position > Select "Tile"
 
 # Configuration #
 
