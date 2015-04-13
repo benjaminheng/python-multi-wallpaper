@@ -40,3 +40,7 @@ Right click the icon, you have 3 options:
 * Update Wallpapers: Forces the wallpapers to change.
 * Delete Wallpaper #2: Deletes the current wallpaper on monitor 2 from the disk. You can easily duplicate this function for other monitors by editing the `menu_options` variable at the bottom and adding the appropriate function.
 * Quit: Terminates the script.
+
+# License
+
+This project is licensed under the terms of the MIT license.
